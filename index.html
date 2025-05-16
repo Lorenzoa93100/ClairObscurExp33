@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clair Obscur: Combat Simulator</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Phaser.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+</head>
+<body>
+    <h1 class="title">Clair Obscur : Combat Simulator</h1>
+
+    <!-- Game canvas will be injected into this container by Phaser -->
+    <div id="game-container"></div>
+
+    <!-- UI (health bars) -->
+    <div id="ui">
+        <div class="bar">
+            <div id="player-health" class="bar-fill"></div>
+            <span class="bar-label">Player HP</span>
+        </div>
+        <div class="bar">
+            <div id="boss-health" class="bar-fill boss"></div>
+            <span class="bar-label">Boss HP</span>
+        </div>
+    </div>
+
+    <!-- Game logic -->
+    <script src="main.js"></script>
+</body>
+</html>
